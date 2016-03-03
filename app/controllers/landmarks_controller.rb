@@ -1,3 +1,5 @@
 class LandmarksController < ApplicationController
 
+
+
 end
