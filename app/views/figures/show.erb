@@ -1,1 +1,12 @@
 
+<h1> Historical Figure: <%= @figure.name %> </h1>
+<br></br>
+<h2> Titles throughout career: </h2>
+  <% @figure.titles.each do |title| %> 
+    <%= title.name %><br>
+  <% end %> 
+
+  <h2> Landmarks associated with this figure: </h2>
+    <% @figure.landmarks.each do |landmark| %> 
+      <%= landmark.name %><br> 
+    <% end %> 
